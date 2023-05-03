@@ -1,0 +1,16 @@
+.Card {
+	position: relative;
+	background-color: rgb(63, 63, 63);
+	border-radius: 1rem;
+	padding: 1rem;
+}
+
+.Card span {
+	position: absolute;
+	top: 1rem;
+	right: 1.5rem;
+	cursor: pointer;
+	&:hover {
+		color: red;
+	}
+}
